@@ -19,7 +19,7 @@ class BookOff extends StatelessWidget {
       children: [
         Column(
           children: [
-            Expanded(child: Image.asset("images/webtech.JPG")),
+            Image.asset("images/webtech.JPG"),
             const SizedBox(
               height: 10,
             ),

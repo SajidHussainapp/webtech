@@ -31,7 +31,7 @@ class _BookOnState extends State<BookOn> {
       children: [
         Column(
           children: [
-            Expanded(child: Image.asset("images/webtech.JPG")),
+             Image.asset("images/webtech.JPG"),
             const Text(
               "App Test",
               style: TextStyle(fontSize: 30, color: Colors.blue),
